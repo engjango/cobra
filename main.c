@@ -63,7 +63,7 @@ int main(void)
 	system("clear");
 	
 	// Exibe animação de introdução
-	//texteffect_introanim();
+	texteffect_introanim();
 	
 	// Configura mapa do menu principal
 	map_loadfromfile(&mainmap, MAP_X, MAP_Y, "maps/mainmenu.ans");
