@@ -9,8 +9,9 @@ Snake game for Linux and learning C purpose. Cobra is a snake game written in C 
 - [x] Menu (retro)
 - [x] Sound effects (bass library)
 - [x] A* algorithm ("smart" enemies)
+- [x] Obstacles
 - [ ] Records List
-- [ ] Config option
+- [ ] Config options
 - [ ] Help menu
 
 # Install Dependencies
