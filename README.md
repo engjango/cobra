@@ -1,5 +1,8 @@
-# cobra
-Snake game for Linux and learning C purpose. Cobra is a snake game written in C with and contains a few thousands of lines, it also implements animations, retro menu, snake enemies and sound effects.
+# Cobra
+Snake game for Linux with a focus on learning C. "Cobra" is a snake game written in C. It features animations, a retro menu, snake enemies, and sound effects, providing an engaging gaming experience.
+
+
+Jogo da Cobrinha para Linux com propósito de aprendizado em C. "Cobra" é um jogo escrito em C. Ele implementa animações, um menu retrô, cobras inimigas e efeitos sonoros.
 
 ![Screenshot main menu](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-55.png)
 
