@@ -28,11 +28,11 @@ cd cobra/lib/
 ### A* Library (https://www.bedroomlan.org/projects/libastar/)
 For x86 machines, run the code below
 ```
-sudo dpkg -i install libastar0_0.9-2_i386.deb
+sudo dpkg -i libastar0_0.9-2_i386.deb
 ```
 or in case of x64 Machines,
 ```
-sudo dpkg -i install libastar0_0.9-1_amd64.deb
+sudo dpkg -i libastar0_0.9-1_amd64.deb
 ```
 ### BASS Library (http://www.un4seen.com/)
 Now, install the bass library, i.e.,
