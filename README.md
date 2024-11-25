@@ -9,6 +9,9 @@ Cobra is an immersive snake game for Linux, crafted with passion and C programmi
 
 ![Main Menu Screenshot](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-55.png)
 
+## 🎬 Gameplay Trailer
+[![Cobra Snake Game Trailer](https://img.youtube.com/vi/ZzLdnaDOD5A/maxresdefault.jpg)](https://www.youtube.com/watch?v=ZzLdnaDOD5A)
+
 ## ✨ Standout Features
 
 ### 🚀 Cutting-Edge Gameplay
