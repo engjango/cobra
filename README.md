@@ -63,7 +63,7 @@ sudo ldconfig
 - **Enter:** Select menu option
 
 ## 🖼 Gameplay Screenshots
-[https://github.com/engjango/cobra/blob/main/cobra-snake-gameplay.mp4](https://github.com/engjango/cobra/raw/refs/heads/main/cobra-snake-gameplay.mp4)
+https://github.com/engjango/cobra/raw/refs/heads/main/cobra-snake-gameplay.mp4
 ![Intro Screen](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-09%2020-30-22.png)
 ![Gameplay Animation](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-52.png)
 ![Game Scene](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-42.png)
