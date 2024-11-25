@@ -1,70 +1,114 @@
-# Cobra
-Snake game for Linux with a focus on learning C. "Cobra" is a snake game written in C. It features animations, a retro menu, snake enemies, and sound effects, providing an engaging gaming experience.
+# 🐍 Cobra: A Retro Snake Game in C
 
+[![GitHub stars](https://img.shields.io/github/stars/lavradodosilicio/cobra.svg?style=social&label=Stars)](https://github.com/lavradodosilicio/cobra)
+[![GitHub forks](https://img.shields.io/github/forks/lavradodosilicio/cobra.svg?style=social&label=Fork)](https://github.com/lavradodosilicio/cobra)
+[![GitHub release](https://img.shields.io/github/release/lavradodosilicio/cobra.svg)](https://github.com/lavradodosilicio/cobra/releases)
 
-Jogo da Cobrinha para Linux com propósito de aprendizado em C. "Cobra" é um jogo escrito em C. Ele implementa animações, um menu retrô, cobras inimigas e efeitos sonoros.
+## 🎮 Game Overview
+Cobra is an immersive snake game for Linux, crafted with passion and C programming prowess. Experience a nostalgic journey through retro-style gameplay with innovative features that set it apart from traditional snake games.
 
-![Screenshot main menu](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-55.png)
+![Main Menu Screenshot](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-55.png)
 
-# Features
+## ✨ Standout Features
 
-- [x] Intro animation (animated ASCII Art)
-- [x] Menu (retro)
-- [x] Sound effects (bass library)
-- [x] A* algorithm ("smart" enemies)
-- [x] Obstacles
-- [ ] Records List
-- [ ] Config options
-- [ ] Help menu
+### 🚀 Cutting-Edge Gameplay
+- [x] **Animated Intro:** Stunning ASCII Art animation
+- [x] **Retro Menu Design:** Nostalgic user interface
+- [x] **Intelligent Enemies:** A* algorithm for "smart" snake opponents
+- [x] **Dynamic Obstacles:** Challenging game environment
+- [x] **Immersive Sound Effects:** Bass library audio integration
 
-# Install Dependencies
+### 🔜 Coming Soon
+- [ ] Leaderboard/Records System
+- [ ] Customization Options
+- [ ] Comprehensive Help Menu
 
-## Linux (Ubuntu)
+## 🛠 Installation Guide
 
-```
+### Prerequisites
+- Linux (Tested on Ubuntu)
+- Git
+- Basic development tools
+- GCC Compiler
+
+### 1. Clone the Repository
+```bash
 git clone https://github.com/lavradodosilicio/cobra.git
-cd cobra/lib/
-```
-### A* Library (https://www.bedroomlan.org/projects/libastar/)
-For x86 machines, run the code below
-```
-sudo dpkg -i libastar0_0.9-2_i386.deb
-```
-or in case of x64 Machines,
-```
-sudo dpkg -i libastar0_0.9-1_amd64.deb
-```
-### BASS Library (http://www.un4seen.com/)
-Now, install the bass library, i.e.,
-```
-sudo cp libbass.so /usr/local/lib   (to copy bass library into linux lib)
-sudo chmod a+rx /usr/local/lib/libbass.so   (to load the lib)
-sudo ldconfig  (to autoconfig)
+cd cobra
 ```
 
-# Compile and Run
-
-Once you have the dependencies (see above), run the following commands in your terminal.
-
+### 2. Install Dependencies
+#### A* Library
+For x86 machines:
+```bash
+sudo dpkg -i lib/libastar0_0.9-2_i386.deb
 ```
-cd ..
+For x64 machines:
+```bash
+sudo dpkg -i lib/libastar0_0.9-1_amd64.deb
+```
+
+#### BASS Library
+```bash
+sudo cp lib/libbass.so /usr/local/lib
+sudo chmod a+rx /usr/local/lib/libbass.so
+sudo ldconfig
+```
+
+## 🎮 How to Play
+
+### Controls
+- **⬆️⬇️⬅️➡️:** Navigate snake or menu
+- **Space:** Pause game
+- **Enter:** Select menu option
+
+## 🖼 Gameplay Screenshots
+![Intro Screen](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-09%2020-30-22.png)
+![Gameplay Animation](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-52.png)
+![Game Scene](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-42.png)
+
+## 🚀 Quick Start
+```bash
+cd cobra
 make
 ./cobra
 ```
 
-# Controls
+## 📦 Dependencies
+- libastar (Version 0.9)
+- bass (Latest version)
 
-* Arrow keys to control the snake direction of movement or select menu option.
-* Space to pause.
-* Enter to select option.
+## 🤝 Contributing
+We welcome contributions! Please follow these steps:
 
-# Screenshots
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-![Screenshot intro](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-09%2020-30-22.png)
-![Screenshot animation](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-52.png)
-![Screenshot intro](https://github.com/lavradodosilicio/cobra/blob/main/screenshots/Captura%20de%20tela%20de%202021-01-07%2018-02-42.png)
+### Contribution Guidelines
+- Follow existing code style
+- Write clear, commented code
+- Include tests for new features
+- Update documentation
 
-# Dependencies
+## 🐛 Reporting Issues
+Found a bug? Please open an issue with:
+- Detailed description
+- Steps to reproduce
+- Your environment details
 
-* libastar
-* bass
+## 🌟 Show Your Support
+Give a ⭐ if you enjoyed the game!
+
+## 📄 License
+MIT License
+
+## 📞 Contact
+- Project Link: [https://github.com/lavradodosilicio/cobra](https://github.com/lavradodosilicio/cobra)
+- Creator: @engjango (Jango)
+
+## 🏆 Acknowledgments
+- A* Library by Alexios.
+- BASS Library by UN4SEE.
